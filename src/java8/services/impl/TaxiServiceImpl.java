@@ -37,4 +37,7 @@ public class TaxiServiceImpl implements TaxiService {
     public void update(Long id) {
 
     }
+    void helo(){
+
+    }
 }
