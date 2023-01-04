@@ -13,4 +13,5 @@ public interface DriverService {
     String changeTaxiOrDriver(Long driverId, Long taxiId);
     List<Driver> getDriverByTaxiModel(String model);
     void update(String driverName);
+    void update1(String driverName);
 }
