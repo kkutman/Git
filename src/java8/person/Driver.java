@@ -92,15 +92,15 @@ public class Driver {
 
     @Override
     public String toString() {
-        return "Driver{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", surname='" + surname + '\'' +
-                ", gender=" + gender +
-                ", phoneNumber='" + phoneNumber + '\'' +
-                ", license=" + license +
-                ", money=" + money +
-                ", taxi=" + taxi +
-                "\n";
+        return "\nDRIVER : " +
+                "\nID : " + id +
+                "\nNAME : " + name + '\'' +
+                "\nSURNAME : " + surname + '\'' +
+                "\nGENDER : " + gender +
+                "\nPHONE NUMBER : " + phoneNumber + '\'' +
+                "\nLICENSE : " + license +
+                "\nMONEY : " + money +
+                "\nTAXI : " + taxi +
+                "\n*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*";
     }
 }

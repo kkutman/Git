@@ -60,12 +60,12 @@ public class Client {
 
     @Override
     public String toString() {
-        return "Client{" +
-                "id=" + id +
-                ", fullName='" + fullName + '\'' +
-                ", dateOfBirth=" + dateOfBirth +
-                ", phoneNumber='" + phoneNumber + '\'' +
-                ", money=" + money +
-                "\n";
+        return "\nCLIENT : " +
+                "\nID : " + id +
+                "\nFULL NAME : " + fullName + '\'' +
+                "\nDATE OF BIRTH : " + dateOfBirth +
+                "\nPHONE NUMBER : " + phoneNumber + '\'' +
+                "\nMONEY : " + money +
+                "\n*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*";
     }
 }

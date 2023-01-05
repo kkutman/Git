@@ -40,10 +40,10 @@ public class License {
 
     @Override
     public String toString() {
-        return "License{" +
-                "id=" + id +
-                ", dateOfIssue=" + dateOfIssue +
-                ", expirationDate=" + expirationDate +
-                "\n";
+        return "\nLICENSE : " +
+                "\nID : " + id +
+                "\nDATE OF ISSUE : " + dateOfIssue +
+                "\nEXPIRATION DATE : " + expirationDate +
+                "\n*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*";
     }
 }
