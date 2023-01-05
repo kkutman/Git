@@ -20,11 +20,7 @@ public class Main {
                 new Client(5L,"kutman5", LocalDate.of(2003,4,4),"233232",new BigDecimal(2000)),
                 new Client(6L,"kutman6", LocalDate.of(2004,4,4),"233232",new BigDecimal(2000))
         ));
-        ClientServiceImpl clientService = new ClientServiceImpl();
-        clientService.addClient(clients);
-       // System.out.println(clientService.getClientAge());
-      //  System.out.println(clientService.getClientByName(scanner.nextLine()));
-        System.out.println(clientService.removeClientById(scanner.nextLong()));
+
 
 
     }

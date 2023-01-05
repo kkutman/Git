@@ -73,9 +73,9 @@ public class Taxi {
     public String toString() {
         return "\nTAXI : " +
                 "\nID : " + id +
-                "\nMODEL : " + model + '\'' +
-                "\nNUMBER : " + number + '\'' +
-                "\nCOLOR : " + colour + '\'' +
+                "\nMODEL : " + model +
+                "\nNUMBER : " + number +
+                "\nCOLOR : " + colour +
                 "\nYEAR : " + year +
                 "\nTAXI TYPE : " + taxiType +
                 "\n*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*";

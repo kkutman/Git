@@ -94,10 +94,10 @@ public class Driver {
     public String toString() {
         return "\nDRIVER : " +
                 "\nID : " + id +
-                "\nNAME : " + name + '\'' +
-                "\nSURNAME : " + surname + '\'' +
+                "\nNAME : " + name +
+                "\nSURNAME : " + surname +
                 "\nGENDER : " + gender +
-                "\nPHONE NUMBER : " + phoneNumber + '\'' +
+                "\nPHONE NUMBER : " + phoneNumber +
                 "\nLICENSE : " + license +
                 "\nMONEY : " + money +
                 "\nTAXI : " + taxi +

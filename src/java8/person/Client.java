@@ -62,9 +62,9 @@ public class Client {
     public String toString() {
         return "\nCLIENT : " +
                 "\nID : " + id +
-                "\nFULL NAME : " + fullName + '\'' +
+                "\nFULL NAME : " + fullName +
                 "\nDATE OF BIRTH : " + dateOfBirth +
-                "\nPHONE NUMBER : " + phoneNumber + '\'' +
+                "\nPHONE NUMBER : " + phoneNumber +
                 "\nMONEY : " + money +
                 "\n*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*";
     }
