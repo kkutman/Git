@@ -7,6 +7,11 @@ import java.util.List;
 
 public class DriverServiceImpl implements DriverService {
     @Override
+    public void update1(String driverName) {
+
+    }
+
+    @Override
     public Driver add(Driver driver) {
         return null;
     }
